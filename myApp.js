@@ -1,22 +1,17 @@
 const express = require('express');
+const app = express();
 const helmet = require('helmet');
 
-const app = express();
-
-// Use Helmet
+// Use Helmet middleware
 app.use(helmet());
 
-// Your other routes and middleware here
+// Your existing code here...
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-"dependencies": {
-    "helmet": "3.21.3",
-    ...
-}
-npm install helmet@3.21.3
+
 
 
 
