@@ -1,11 +1,9 @@
-const express = require('express');
-const app = express();
-const helmet = require('helmet');
-
 // Use Helmet middleware
 app.use(helmet());
 
-// Your existing code here...
+const express = require('express');
+const app = express();
+const helmet = require('helmet');
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
