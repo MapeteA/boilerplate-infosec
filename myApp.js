@@ -1,5 +1,24 @@
 const express = require('express');
+const helmet = require('helmet');
 const app = express();
+
+// Use Helmet
+app.use(helmet());
+
+const express = require('express');
+const helmet = require('helmet');
+
+const app = express();
+
+// Use Helmet
+app.use(helmet());
+
+// Your other routes and middleware here
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
 
 
 
