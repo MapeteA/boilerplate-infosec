@@ -18,3 +18,8 @@
 	],
 	"license": "MIT"
 }
+"dependencies": {
+    "helmet": "3.21.3",
+    ...
+}
+npm install helmet@3.21.3
