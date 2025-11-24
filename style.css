@@ -1,0 +1,22 @@
+/* styles.css */
+/* Custom styles to override or add to Bootstrap */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-color: #007bff; /* Bootstrap primary blue */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: auto;
+}
